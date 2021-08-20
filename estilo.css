@@ -1,0 +1,40 @@
+body{
+  /* el color de fondo de todo el cuerpo de html/ventana de navegacion
+  sera de color Negro */
+  background-color: black;
+}
+
+table{
+
+  /* Tabla tendra las siguiente caracteristicas: */
+display:block; /*llenara todo el espacio hasta el limite, salto de linea hacia abajo  */
+margin:0 auto;/* del limite de los bordes a la tabla misma tendra un espacia de 0 y lo demas automatico*/
+background-color: salmon; /* color de fondo de la tabla sera color salmon */
+padding:20px; 
+width:300px;/* Ancho de la tabla de 300 pixeles */
+height:400px;/* Largo de la tabla de 400 pixeles */
+border-radius: 25px;/* Los bordes de la tabla sera de un redondel(radio) de 25 pixeles */
+
+}
+/*  */
+#pantalla{ /* lo que esta contenido dentro del elemento de id= 'pantalla' */
+display:block;/*llenara todo el espacio hasta el limite, salto de linea hacia abajo  */
+text-align: center;/* Alinear el texto de la celda, aparecera en su centro */
+font-size: 40px;/*El tamaño de la fuente de los datod que se ingresen sera de 40 pixeles  */
+margin-bottom: 50px; /* Margen de abajo de 50 pixeles */
+width:250px;/* Ancho de la pantalla 250px */
+height: 100px;/* Alto de la pantalla 100 pixeles */
+line-height: 100px;/*  */
+background-color:#fff; /*Color de fondo de la celda  */
+border-radius: 25px;/* Los bordes de la celda sera de un redondel(radio) de 25 pixeles */
+overflow-y:hidden;
+}
+
+
+button{/* Nos referimos a los elementos de tipo button(botones) */
+width: 40px;/* Ancho de los botones sera 40px */
+height: 40px;  /* Largo de los botones sera 40px */
+
+}
+
+
